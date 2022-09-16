@@ -861,6 +861,11 @@ justify-content: space-between;
         margin: 0 0 50px;
     }
 }
+@media (max-width: 767px) {
+    .work .container .image img {
+        max-width: 100%;
+    }
+}
 .work .info .box  {
     background-color: #f6f5f5;
     padding: 30px;
@@ -1040,6 +1045,12 @@ justify-content: space-between;
 .events .subscribe form input[type="submit"]:hover {
     background-color: var(--main-color-alt);
 }
+@media (max-width: 991px) {
+    .events .dots  {
+        display: none;
+    }
+}
+/* End Events */
 /* Start Pricing */
 .pricing {
     padding-top: var(--main-padding);
